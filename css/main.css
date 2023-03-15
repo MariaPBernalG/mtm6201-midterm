@@ -162,7 +162,9 @@ form {
 }
 
 button {
-    position: relative;
+    position: absolute;
+    top: 240px;
+    left: 290px;
     color: white;
     background-color: rgb(34, 34, 34, 0.6);
     border-color: #e93536;

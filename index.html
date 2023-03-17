@@ -13,32 +13,30 @@
   <!---Logo-->
   <img src="images/OldFilm.png" alt="OldFilm Logo" class="logo">
   <nav id="main-menu">
-    <!---Main menu-->
+    <!---Main menu -->
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Movies</a></li>
-      <li><a href="#">Rates</a></li>
-      
+      <li><a href="#home">Home</a></li>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#rates">Rates</a></li>
+
     </ul>
   </nav>
-<!---Burger menu-->
+  <!---Burger menu-->
   <input type="checkbox" id="hamburger-input" class="burger-shower" />
   <label id="hamburger-menu" for="hamburger-input">
     <nav id="sidebar-menu">
       <h3>Menu</h3>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Store</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#rates">Rates</a></li>
       </ul>
     </nav>
   </label>
 
   <header>
-    <!--- contains banner image, whatch trailer btn and info -->
-    <div class="banner" id="#home">
+    <!--- Home Page -contains banner image, whatch trailer btn and info -->
+    <div class="banner" id="home">
       <img src="images/4566886.jpg" alt="horror movie banner" class="img1">
     </div>
     <div>
@@ -61,19 +59,72 @@
         <img src="images/movie2.jpg" alt="movie poster" class="mv2">
         <h2>Woodland's Hounted House</h2>
         <p class="title">Thriller, 1975 - 120 min</p>
-        <!---<p>A young couple, Emily and James, purchase an old abandoned house in the woods with the intention of renovating it and turning it into their dream home..</p>-->
       </div>
       <div class="card mv3">
         <img src="images/movie3.jpg" alt="movie poster" class="mv3">
         <h2>We Count</h2>
         <p class="title">Drama, 1980 - 120 min</p>
-        <!---<p>Marcus, a young black man who dreams of becoming a successful lawyer. However, he faces many obstacles, including discrimination from potential employers and classmates who underestimate his abilities. He must fight to prove his worth and break through the racial barriers that are holding him back.</p>-->
       </div>
       <div class="card mv4">
         <img src="images/movie4.jpg" alt="movie poster" class="mv4">
         <h2>Real Moments with Feeling</h2>
         <p class="title">Drama, 1970 - 125 min</p>
-        <!---<p>The story follows the journey of a young woman named Lily, who is part of the scientific community but begins to question the morality of the experiments being conducted. She discovers that the experiments are causing harm to the subjects and that the scientists are willing to go to extreme lengths to achieve their goals.</p>-->
+      </div>
+    </div>
+    <div id="movies">
+      <!---Page #2 - Movies Page-->
+      <h1 class="movies">MOVIES</h1>
+      <div>
+
+        <div class="bnn">
+          <img src="images/bn1.jpg" alt="Spy movie poster" class="bn1">
+        </div>
+        <div>
+          <form action="#">
+            <a href="#play"><button type="button">Play <i class='fa fa-caret-right play' id="play"></i></button></a>
+          </form>
+        </div>
+
+        <div class="bnn">
+          <img src="images/bn2.jpg" alt="horror movie banner" class="bn2">
+        </div>
+        <div>
+          <form action="#">
+            <a href="#play"><button type="button">Play <i class='fa fa-caret-right play2' id="play"></i></button></a>
+          </form>
+        </div>
+
+        <div class="bnn">
+          <img src="images/bn3.jpg" alt="romance movie banner" class="bn3">
+        </div>
+        <div>
+          <form action="#">
+            <a href="#play"><button type="button">Play<i class='fa fa-caret-right play3' id="play"></i></button></a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!---Page #3 - Overview, details and reviews page-->
+    <div id="rates">
+      <h1 class="rating">RATING</h1>
+      <div class="bnn">
+        <img src="images/bn2.jpg" alt="horror movie banner" class="rt1">
+      </div>
+
+      <nav id="view-menu">
+        <!---Overview Menu -->
+        <ul>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <p class="overview">The Haunting of Blackwood Manor follows the story of a young couple, Sarah and John, who move into a remote and eerie old mansion nestled in the woods. The couple is looking for a fresh start, but they soon realize that the house has a dark and sinister past.
+
+        As they begin to settle in, strange and unexplainable events start to occur. Doors slam shut on their own, the temperature drops suddenly, and they hear strange whispers and footsteps throughout the house. Sarah and John start to feel a menacing presence in the house, and they soon realize that they are not alone.</p>
       </div>
     </div>
   </main>

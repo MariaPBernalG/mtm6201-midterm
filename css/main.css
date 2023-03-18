@@ -468,6 +468,14 @@ table .rv {
         font-size: 25px;
     }
 
+    #view-menu ul a {
+        font-size: 35px;
+    }
+
+    #view-menu ul {
+        padding: 30px;
+    }
+
     p {
         font-size: 30px;
         padding: 0;

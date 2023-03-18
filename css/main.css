@@ -476,6 +476,10 @@ table .rv {
         padding: 30px;
     }
 
+    #view-menu a {
+        padding: 20px;
+    }
+
     p {
         font-size: 30px;
         padding: 0;

@@ -212,6 +212,7 @@ button {
 }
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 13px;
     color: white;
     margin: 0;
@@ -238,6 +239,7 @@ h3 {
     font-size: 13px;
     color: white;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding: 0;
 }
@@ -397,20 +399,26 @@ table .rv {
         width: 250px;
         padding-top: 10px;
         padding-left: 35%;
-    
+
+    }
+
+    #hamburger-menu {
+        width: 40px;
+        height: 20px;
+        padding-top: 20px;
     }
 
     form {
         padding-bottom: 5px;
         padding-left: 67%;
     }
-    
+
     button {
         padding: 30px;
         font-size: 30px;
         text-align: center;
     }
-    
+
     .fa-caret-right {
         padding-left: 15px;
     }
@@ -423,20 +431,24 @@ table .rv {
         width: 300px;
         grid-area: one;
     }
-    
+
     .mv2 {
         width: 300px;
         grid-area: two;
     }
-    
+
     .mv3 {
         width: 300px;
         grid-area: three;
     }
-    
+
     .mv4 {
         width: 300px;
         grid-area: four;
+    }
+
+    h1 {
+        font-size: 60;
     }
 
     h2 {
@@ -457,10 +469,34 @@ table .rv {
     }
 
     p {
+        font-size: 30px;
         padding: 0;
         margin: 0;
     }
+
+    table,
+    th,
+    td {
+        
+        font-size: 25px;
+        padding: 10px;       
+    }
+
+    table {
+        margin-left: 20px;
+    }
+
+    .overview {
+        margin: 10px;
+        margin-top: 0;
+        font-size: 30px;
+        padding: 15px;
     
+    }
+
+    .rvt {
+        padding: 30px;
+    }
     
 }
 

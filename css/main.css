@@ -517,6 +517,16 @@ table .rv {
     .rvt {
         padding: 30px;
     }
+
+    .fa-star:hover {
+        transition: 1s;
+        transform: rotate(1turn);
+    }
+    
+    .fa-star {
+        transition: 3s;
+        transform: rotate(1turn);
+    }
     
 }
 
@@ -524,6 +534,10 @@ table .rv {
 @media screen and (min-width: 124px) {
      #main-menu {
          display: inline;
+     }
+
+     #main-menu a {
+        font-size: 40px;
      }
  
      #hamburger-menu {
@@ -534,16 +548,33 @@ table .rv {
         width: 250px;
         padding-top: 10px;
         padding-left: 42%;
+        padding-bottom: 30px;
 
+    }
+
+    .mv1,
+    .mv2,
+    .mv3,
+    .mv4 {
+        width: 200px;
+    }
+
+
+    .mv3 {
+        padding-right: 5px;
+    }
+
+
+    .wrapper {
+        margin: 80px;
     }
 
     .grid {
         grid-template-areas:
-            "one two three four"
             "one two three four";
-     
-        padding-left: 0;   
-        padding-right: 3px; 
+        padding-left: 0;
+        grid-template-rows: none;
+         
     }
 
     .bn1 {
@@ -568,12 +599,12 @@ table .rv {
 
     .rt1 {
         width: 50%;
-        padding-left: 250px;
+        padding-left: 200px;
     }
 
     #details {
         width: 70%;
-        padding-left: 150px;
+        padding-left: 100px;
     }
 
     #overview {
@@ -602,5 +633,15 @@ table .rv {
     .block2 {
         grid-area: dos;
         padding: 5px;
+    }
+
+    .fa-star:hover {
+        transition: 1s;
+        transform: rotate(1turn);
+    }
+    
+    .fa-star {
+        transition: 3s;
+        transform: rotate(1turn);
     }
  }

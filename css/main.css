@@ -244,6 +244,7 @@ h3 {
     padding: 0;
 }
 
+/*Titles animation*/
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -374,37 +375,13 @@ table .rv {
 }
 
 
-/*#details:link {
-   visibility: hidden; 
-}
-
-#overview {
-    visibility: hidden;
-}
-
-#reviews {
-    visibility: hidden;
-}
-
-#details:active {
-    visibility: visible; 
- }
- 
- #overview:active {
-     visibility: visible;
- }
- 
- #reviews:active {
-     visibility: visible;
- }*/
-
 footer {
     color: whitesmoke;
     background-color: #6b6b6b;
     padding: 10px;
 }
 
-/*********MOBILE**********/
+/*********MOBILE menu size**********/
 @media screen and (max-width: 820px) {
     #main-menu {
         display: none;
@@ -416,8 +393,9 @@ footer {
 
 }
 
-/*******TABLET*********/
+/*******TABLET ADJUSTMENTS*********/
 
+/*Displays the correct menu size*/
 @media screen and (min-width: 820px) {
     .logo {
         width: 250px;
@@ -471,6 +449,7 @@ footer {
         grid-area: four;
     }
 
+
     h1 {
         font-size: 60;
         animation-name: stretch;
@@ -481,6 +460,7 @@ footer {
         animation-fill-mode: none;
     }
 
+    /*Titles animation*/
     @keyframes stretch {
         0% {
             transform: scale(.3);
@@ -554,6 +534,7 @@ footer {
         padding: 30px;
     }
 
+    /*Animates rate's stars*/
     .fa-star:hover {
         transition: 1s;
         transform: rotate(1turn);
@@ -566,7 +547,9 @@ footer {
 
 }
 
-/************WEB*******/
+/************WEB ADJUSTMENTS*******/
+
+/*Displays the correct menu size*/
 @media screen and (min-width: 1024px) {
     #main-menu {
         display: inline;
@@ -604,7 +587,8 @@ footer {
         animation-direction: alternate;
         animation-fill-mode: none;
     }
-
+ 
+    /*Titles animation*/
     @keyframes stretch {
         0% {
             transform: scale(.3);
@@ -619,7 +603,7 @@ footer {
         padding-right: 5px;
     }
 
-
+/*Mragin for wrapper*/
     .wrapper {
         margin: 80px;
     }

@@ -15,21 +15,21 @@
 <body>
   <!---Logo-->
   <img src="images/OldFilm.png" alt="OldFilm Logo" class="logo">
-  <nav id="main-menu">
+  <nav id="main-menu" role="navigation">
     <!---Main menu -->
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#movies">Movies</a></li>
-      <li><a href="#rates">Rates</a></li>
+    <ul role="menubar">
+      <li role="menuitem"><a href="#home">Home</a></li>
+      <li role="menuitem"><a href="#movies">Movies</a></li>
+      <li role="menuitem"><a href="#rates">Rates</a></li>
 
     </ul>
   </nav>
   <!---Burger menu-->
   <input type="checkbox" id="hamburger-input" class="burger-shower" />
   <label id="hamburger-menu" for="hamburger-input">
-    <nav id="sidebar-menu">
+    <nav id="sidebar-menu" role="navigation">
       <h3>Menu</h3>
-      <ul>
+      <ul role="menu" aria-hidden="true">
         <li><a href="#home">Home</a></li>
         <li><a href="#movies">Movies</a></li>
         <li><a href="#rates">Rates</a></li>
@@ -37,7 +37,7 @@
     </nav>
   </label>
 
-  <header class="wrapper">
+  <header class="wrapper" role="banner">
   
     <!--- Home Page -contains banner image, whatch trailer btn and info -->
     <div class="banner" id="home">
@@ -50,35 +50,35 @@
       </form>
     </div>
   </header>
-  <main class="wrapper">
+  <main class="wrapper" role="main">
     <!---content fo
       r movies entrance-->
     <div class="grid">
       <div class="card mv1">
         <img src="images/movie1.jpg" alt="movie poster" class="mv1">
-        <h2>Lovin' the Rain</h2>
+        <h2 role="heading">Lovin' the Rain</h2>
         <p class="title">Drama, 1973 - 108 min</p>
 
       </div>
       <div class="card mv2">
         <img src="images/movie2.jpg" alt="movie poster" class="mv2">
-        <h2>Woodland's Hounted House</h2>
+        <h2 role="heading">Woodland's Hounted House</h2>
         <p class="title">Thriller, 1975 - 120 min</p>
       </div>
       <div class="card mv3">
         <img src="images/movie3.jpg" alt="movie poster" class="mv3">
-        <h2>We Count</h2>
+        <h2 role="heading">We Count</h2>
         <p class="title">Drama, 1980 - 120 min</p>
       </div>
       <div class="card mv4">
         <img src="images/movie4.jpg" alt="movie poster" class="mv4">
-        <h2>Real Moments with Feeling</h2>
+        <h2 role="heading">Real Moments with Feeling</h2>
         <p class="title">Drama, 1970 - 125 min</p>
       </div>
     </div>
     <div id="movies">
       <!---Page #2 - Movies Page-->
-      <h1 class="movies">MOVIES</h1>
+      <h1 class="movies" role="heading">MOVIES</h1>
       <div>
 
         <div class="bnn1">
@@ -124,7 +124,7 @@
 
     <!---Page #3 - Overview, details and reviews page-->
     <div id="rates">
-      <h1 class="rating">RATING</h1>
+      <h1 class="rating" role="heading">RATING</h1>
       <div class="bnn">
         <img src="images/bn2.jpg" alt="horror movie banner" class="rt1">
       </div>
@@ -221,5 +221,10 @@
     </div>
   </main>
 </body>
+<footer class="wrapper">
+  <div>
+  <p><small>&copy; Copyright Three Star Media, 2020</small></p>
+</div>
+</footer>
 
 </html>

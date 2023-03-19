@@ -250,9 +250,22 @@ h1 {
     text-align: center;
     background-color: rgb(34, 34, 34, 0.6);
     padding: 10px;
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-fill-mode: none;
 }
 
-
+@keyframes stretch {
+    0% {
+      transform: scale(.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
 
 .bn1 {
     width: 100%;
@@ -359,6 +372,7 @@ table .rv {
     padding: 5px;
 }
 
+
 /*#details:link {
    visibility: hidden; 
 }
@@ -383,7 +397,11 @@ table .rv {
      visibility: visible;
  }*/
 
-
+footer {
+    color: whitesmoke;
+    background-color: #6b6b6b;
+    padding: 10px;
+}
 
 /*********MOBILE**********/
 @media screen and (max-width: 820px) {
@@ -394,6 +412,7 @@ table .rv {
     #hamburger-menu {
         display: inline;
     }
+    
 }
 
 /*******TABLET*********/
@@ -453,6 +472,21 @@ table .rv {
 
     h1 {
         font-size: 60;
+        animation-name: stretch;
+       animation-duration: 1.5s; 
+     animation-timing-function: ease-out; 
+     animation-delay: 0;
+     animation-direction: alternate;
+     animation-fill-mode: none;
+    }
+
+    @keyframes stretch {
+        0% {
+          transform: scale(.3);
+        }
+        100% {
+          transform: scale(1);
+        }
     }
 
     h2 {
@@ -557,8 +591,26 @@ table .rv {
     .mv3,
     .mv4 {
         width: 200px;
+        
     }
+        
+   h1 {
+    animation-name: stretch;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+   }
 
+   @keyframes stretch {
+    0% {
+      transform: scale(.3);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
 
     .mv3 {
         padding-right: 5px;
@@ -644,4 +696,5 @@ table .rv {
         transition: 3s;
         transform: rotate(1turn);
     }
- }
+
+}

@@ -346,6 +346,10 @@ table .rv {
     color: orange;
 }
 
+#reviews {
+    display: grid;
+}
+
 .reviews {
     margin: 10px;
 }
@@ -506,6 +510,10 @@ table .rv {
     
     }
 
+    #reviews {
+        display: grid;
+    }
+
     .rvt {
         padding: 30px;
     }
@@ -513,7 +521,7 @@ table .rv {
 }
 
 /************WEB*******/
-/*@media screen and (min-width: 900px) {
+@media screen and (min-width: 124px) {
      #main-menu {
          display: inline;
      }
@@ -521,4 +529,78 @@ table .rv {
      #hamburger-menu {
          display: none;
      }
- }*/
+
+     .logo {
+        width: 250px;
+        padding-top: 10px;
+        padding-left: 42%;
+
+    }
+
+    .grid {
+        grid-template-areas:
+            "one two three four"
+            "one two three four";
+     
+        padding-left: 0;   
+        padding-right: 3px; 
+    }
+
+    .bn1 {
+        width: 50%;
+        height: 20%;
+        align-self: left;
+    }
+    
+    .bn2 {
+        width: 50%;
+        height: 20%;
+    }
+    
+    .bn3 {
+        width: 50%;
+        height: 20%;
+    }
+
+    .title2 {
+       padding: 30px; 
+    }
+
+    .rt1 {
+        width: 50%;
+        padding-left: 250px;
+    }
+
+    #details {
+        width: 70%;
+        padding-left: 150px;
+    }
+
+    #overview {
+        margin: 0px 70px 70px;
+        padding: 20px;
+    }
+
+    .overview {
+        padding: 40px;
+    }
+
+    #reviews {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "uno dos";
+    }
+
+
+    .block1 {
+        grid-area: uno;
+        padding: 5px;
+    }
+
+    .block2 {
+        grid-area: dos;
+        padding: 5px;
+    }
+ }

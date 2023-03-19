@@ -565,7 +565,7 @@ footer {
 }
 
 /************WEB*******/
-@media screen and (min-width: 124px) {
+@media screen and (min-width: 1024px) {
      #main-menu {
          display: inline;
      }
@@ -590,7 +590,7 @@ footer {
     .mv2,
     .mv3,
     .mv4 {
-        width: 200px;
+        width: 300px;
         
     }
         
